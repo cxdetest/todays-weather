@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  color: rgb(8, 94, 120);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: rgb(8, 94, 120);
+}
+
+::selection {
+  background-color: rgb(155, 160, 163);
+}
+
+html {
+  background-color: rgba(20, 81, 202, 0.565);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.615), 0 0 5px rgba(0, 0, 0, 0.701) inset;
+}

@@ -1,0 +1,43 @@
+.loadingContainer,
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingContainer {
+  width: 500px;
+  height: 500px;
+  border: 5px;
+  background-color: transparent;
+}
+
+.loading {
+  background-image: url('../assets/weather.jpg');
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  animation: rotation 1s ease-in-out;
+}
+
+@keyframes rotation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.input {
+  background-color: transparent;
+  border-bottom: 1px solid rgb(8, 94, 120);
+  padding: 10px 10px 0;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
